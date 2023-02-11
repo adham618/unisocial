@@ -22,10 +22,10 @@
     "clsx": "^1.2.1",
     "next": "^13.1.6",
     "react": "^18.2.0",
-    "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "tailwind-merge": "^1.9.0"
+    "tailwind-merge": "^1.9.0",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",

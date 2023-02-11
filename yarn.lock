@@ -4667,11 +4667,6 @@ lodash.merge@^4.6.2:
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-lodash.throttle@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
-  integrity sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==
-
 lodash@^4.17.15, lodash@^4.17.19, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
@@ -5337,13 +5332,6 @@ quick-lru@^5.1.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
-
-react-animation-on-scroll@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/react-animation-on-scroll/-/react-animation-on-scroll-5.1.0.tgz#4b69419d187bb5fdf2c4a01208d4a654ac8d883f"
-  integrity sha512-UBhlXUig+AGwDpRoqFC6qFh1mCIperwy1Pk7dJTb0XgpDzERF4f6fhoqFY2+on9Bf1n4OfUrRw4xsnKfQt6U7w==
-  dependencies:
-    lodash.throttle "^4.1.1"
 
 react-dom@^18.2.0:
   version "18.2.0"
@@ -6339,6 +6327,11 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+
+wow.js@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/wow.js/-/wow.js-1.2.2.tgz#247519b0a342319b1a63e22aea9acec1a9ea57f5"
+  integrity sha512-YTW9eiZimHCJDWofsiz2507txaPteUiQD461I/D8533AiRAn3+Y68/1LDuQ3OTgPjagGZLPYKrpoSgjzeQrO6A==
 
 wrap-ansi@^6.2.0:
   version "6.2.0"
