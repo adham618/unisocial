@@ -15,21 +15,13 @@ export default function index() {
     <section className='relative max-w-full overflow-hidden'>
       <LeftGradientBg className='absolute top-[40px] -left-[100px] h-[400px] w-[460px]' />
       <div className='layout relative flex flex-col items-center justify-center py-16 text-center'>
-        <AnimationOnScroll
-          animatePreScroll
-          animateOnce
-          animateIn='animate__fadeInUp'
-        >
+        <AnimationOnScroll animateOnce animateIn='animate__fadeInUp'>
           <h1 className='relative max-w-[1030px] text-[88px] font-semibold leading-[96px]'>
             <HightRigntVector className='absolute -top-4 left-0 h-[51.52px] w-[52.72px]' />
             One-stop platform for university students
           </h1>
         </AnimationOnScroll>
-        <AnimationOnScroll
-          animatePreScroll
-          animateOnce
-          animateIn='animate__fadeInUp'
-        >
+        <AnimationOnScroll animateOnce animateIn='animate__fadeInUp'>
           <p className='my-7 max-w-[540px] text-xl font-light leading-8'>
             Experience university life to the fullest and ease with our
             dedicated social platform
@@ -37,7 +29,6 @@ export default function index() {
         </AnimationOnScroll>
         <AnimationOnScroll
           className='flex flex-col items-center justify-center'
-          animatePreScroll
           animateOnce
           animateIn='animate__fadeInUp'
         >
