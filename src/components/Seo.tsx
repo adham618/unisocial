@@ -64,7 +64,6 @@ export default function Seo(props: SeoProps) {
             property='og:publish_date'
             content={meta.date}
           />
-          {/* // !STARTERCONF Remove or change to your name */}
           <meta
             name='author'
             property='article:author'
