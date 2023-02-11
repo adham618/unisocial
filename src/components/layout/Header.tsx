@@ -19,7 +19,10 @@ export default function Header() {
           <ul className='flex items-center justify-between space-x-4'>
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
-                <Link className='font-normal hover:text-primary' href={href}>
+                <Link
+                  className='font-normal transition-colors hover:text-primary'
+                  href={href}
+                >
                   {label}
                 </Link>
               </li>
