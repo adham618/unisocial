@@ -15,7 +15,7 @@ export default function index() {
             Student social platform that handles it all.
           </h2>
           <Link
-            href='#'
+            href='#features'
             className='group mt-12 flex w-fit cursor-pointer items-center rounded-full bg-white py-5 px-12 text-base font-bold uppercase tracking-[0.08em] transition-colors hover:bg-black hover:text-white'
           >
             See all Features

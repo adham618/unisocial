@@ -44,6 +44,10 @@
   .p {
     @apply font-primary text-sm md:text-base;
   }
+  body,
+  html {
+    scroll-behavior: smooth !important;
+  }
   /* #endregion  /**======== Typography =========== */
 
   .layout {
