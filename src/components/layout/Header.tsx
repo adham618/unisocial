@@ -20,7 +20,7 @@ export default function Header() {
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
                 <Link
-                  className='font-normal transition-colors hover:opacity-60'
+                  className='cursor-pointer font-normal transition-colors hover:opacity-60'
                   href={href}
                 >
                   {label}
