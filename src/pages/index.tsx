@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import HeroSection from '@/components/HeroSection';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
@@ -10,9 +11,7 @@ export default function HomePage() {
       <Seo />
 
       <main>
-        <section className='bg-white'>
-          <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'></div>
-        </section>
+        <HeroSection />
       </main>
     </Layout>
   );
