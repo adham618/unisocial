@@ -2,15 +2,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import ArrowUpRight from '@/assets/ArrowUpRight.svg';
-import GradientBg from '@/assets/GradientBg.svg';
+import RightGradientBg from '@/assets/gradient-2.svg';
+import TOPGradientBg from '@/assets/gradient-3.svg';
+import LeftGradientBg from '@/assets/GradientBg.svg';
 import HightRigntVector from '@/assets/HighRight.svg';
 import Line from '@/assets/Line.svg';
 import Star from '@/assets/Star.svg';
 
 export default function index() {
   return (
-    <section className='relative'>
-      <GradientBg className='absolute top-[40px] -left-[100px] h-[400px] w-[460px]' />
+    <section className='relative max-w-full overflow-hidden'>
+      <LeftGradientBg className='absolute top-[40px] -left-[100px] h-[400px] w-[460px]' />
       <div className='layout relative flex flex-col items-center justify-center py-16 text-center'>
         <h1 className='relative max-w-[1030px] text-[88px] font-semibold leading-[96px]'>
           <HightRigntVector className='absolute -top-4 left-0 h-[51.52px] w-[52.72px]' />
@@ -28,15 +30,22 @@ export default function index() {
           <ArrowUpRight className='ml-2 text-2xl transition-transform group-hover:rotate-45' />
         </Link>
         <div className='mt-10 flex w-full items-center'>
-          <div className=''>
+          <div>
             <Star className='mb-[100px] h-[75.4px] w-[87.11px]' />
             <Line className='h-[253.45px] w-[143.89px]' />
           </div>
-          <div className='relative ml-auto h-[880px] w-full flex-grow'>
-            <Image src='/images/hero-image.png' fill alt='hero-image' />
+          <div className='relative z-20 ml-auto h-[880px] w-full flex-grow'>
+            <TOPGradientBg className='absolute top-0 left-[-108px] z-10 h-[229.5px] w-[280.83px]' />
+            <Image
+              quality={100}
+              src='/images/hero-image.png'
+              fill
+              alt='hero-image'
+            />
           </div>
         </div>
       </div>
+      <RightGradientBg className='absolute bottom-0 -right-[10vw] z-10 h-[1200px] w-[1000px]' />
     </section>
   );
 }
