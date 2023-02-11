@@ -10,7 +10,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-50 bg-white'>
+    <header className='sticky  top-0 z-50 bg-white bg-opacity-90 backdrop-blur-lg'>
       <div className='layout flex items-center justify-between py-5'>
         <Link href='/'>
           <Image src='/svg/Logo.svg' width={161} height={42} alt='logo' />
