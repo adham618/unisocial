@@ -45,7 +45,7 @@ export default function index() {
           </div>
         </div>
       </div>
-      <RightGradientBg className='absolute bottom-0 -right-[10vw] z-10 h-[1200px] w-[1000px]' />
+      <RightGradientBg className='absolute bottom-0 -right-[10vw] -z-10 h-[1200px] w-[1000px]' />
     </section>
   );
 }
