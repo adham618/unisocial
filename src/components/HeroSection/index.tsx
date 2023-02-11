@@ -103,6 +103,7 @@ export default function index() {
             <Line className='h-[253.45px] w-[143.89px]' />
           </div>
           <AnimationOnScroll
+            duration={0.8}
             className='relative z-20 ml-auto h-[880px] w-full flex-grow'
             animateIn='animate__bounceIn'
           >
