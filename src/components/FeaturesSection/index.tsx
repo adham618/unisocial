@@ -35,7 +35,7 @@ export default function index() {
           </div>
         </div>
         <div className='flex items-center justify-between gap-6'>
-          <div className='wow animate__animated animate__fadeInUp w-[510px] max-w-full'>
+          <div className='wow animate__animated animate__fadeInUp w-[530px] max-w-full'>
             <h2 className='text-[56px] font-bold italic leading-[64px] tracking-tight'>
               Find events, jobs, news, and more across your campus
             </h2>
