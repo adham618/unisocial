@@ -4,7 +4,7 @@ import * as React from 'react';
 
 const links = [
   { href: '/about', label: 'About' },
-  { href: '/features', label: 'Features' },
+  { href: '/features', label: '#features' },
   { href: '/contact', label: 'Contact' },
 ];
 
