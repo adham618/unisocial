@@ -20,7 +20,7 @@ export default function Header() {
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
                 <Link
-                  className='font-normal transition-colors hover:opacity-70'
+                  className='font-normal transition-colors hover:opacity-60'
                   href={href}
                 >
                   {label}
@@ -32,9 +32,9 @@ export default function Header() {
         <div className='flex items-center space-x-4'>
           <Link
             href='/login'
-            className='text-base font-normal hover:opacity-70'
+            className='text-base font-normal hover:opacity-60'
           >
-            Login
+            Log In
           </Link>
           <Link
             href='/signup'
