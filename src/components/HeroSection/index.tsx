@@ -16,7 +16,7 @@ export default function index() {
       <LeftGradientBg className='absolute top-[40px] -left-[100px] h-[400px] w-[460px]' />
       <div className='layout relative flex flex-col items-center justify-center py-16 text-center'>
         <AnimationOnScroll animateOnce animateIn='animate__fadeInUp'>
-          <h1 className='relative max-w-[1030px] text-[88px] font-semibold leading-[96px]'>
+          <h1 className='relative max-w-[1030px] text-[88px] font-semibold italic leading-[96px]'>
             <HightRigntVector className='absolute -top-4 left-0 h-[51.52px] w-[52.72px]' />
             One-stop platform for university students
           </h1>
