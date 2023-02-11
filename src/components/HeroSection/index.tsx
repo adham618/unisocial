@@ -29,6 +29,53 @@ export default function index() {
           create account
           <ArrowUpRight className='ml-2 text-2xl transition-transform group-hover:rotate-45' />
         </Link>
+        <div className='mt-7 flex'>
+          <div>
+            <div className='flex items-center justify-center space-x-4'>
+              <Image
+                src='/images/imageedit.jpg'
+                width={32}
+                height={32}
+                alt='university'
+              />
+              <Image
+                src='/images/McGill.jpg'
+                width={26}
+                height={33}
+                alt='university'
+              />
+            </div>
+            <span className='text-center text-[10px] font-medium text-[#7F7F7D]'>
+              Concordia & Mcgill
+            </span>
+          </div>
+          <div className='mr-6 ml-5 h-6 w-[1px] bg-[#c4c4c4]' />
+          <div>
+            <div className='flex items-center justify-center space-x-4'>
+              <Image
+                src='/images/QueensU.jpg'
+                width={22}
+                height={28}
+                alt='university'
+              />
+              <Image
+                src='/images/uottawa.jpg'
+                width={23}
+                height={27}
+                alt='university'
+              />
+              <Image
+                src='/images/Utoronto.jpg'
+                width={31}
+                height={31}
+                alt='university'
+              />
+            </div>
+            <span className='text-center text-[10px] font-medium text-[#7F7F7D]'>
+              Coming soon
+            </span>
+          </div>
+        </div>
         <div className='mt-10 flex w-full items-center'>
           <div>
             <Star className='mb-[100px] h-[75.4px] w-[87.11px]' />
