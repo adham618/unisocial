@@ -13,7 +13,7 @@ import XCircle from '@/assets/XCircle.svg';
 export default function index() {
   return (
     <section className='max-w-full overflow-hidden'>
-      <div className='layout justify-cente flex flex-col items-center py-16 text-center'>
+      <div className='layout flex flex-col items-center justify-center py-16 text-center'>
         <h2 className='wow animate__animated animate__fadeInUp mb-5 text-4xl font-bold italic sm:mb-7 sm:text-5xl lg:text-[56px]'>
           Why UniSocial?
         </h2>
