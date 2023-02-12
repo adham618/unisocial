@@ -18,7 +18,7 @@ export default function index() {
           Most “education” platforms work against you, than for you. Shift to
           the software that’s made by students for students.
         </p>
-        <div className='relative mx-auto mt-16 grid max-w-[1004px] auto-rows-auto grid-cols-2 gap-8'>
+        <div className='relative mx-auto mt-16 grid max-w-[1038px] auto-rows-auto grid-cols-2 gap-8'>
           <div className='wow animate__animated animate__fadeInUp flex flex-col'>
             <h2 className='mx-auto h-[42px] w-fit text-[30px] font-bold'>
               <Image src='/svg/logo.svg' width={179} height={42} alt='logo' />
