@@ -24,7 +24,7 @@ export default function Header() {
             <Image src='/svg/Logo.svg' fill alt='logo' />
           </Link>
           <nav>
-            <ul className='hidden items-center justify-between space-x-4 bg-white md:flex'>
+            <ul className='hidden items-center justify-between space-x-4 md:flex'>
               {links.map(({ href, label }) => (
                 <li key={`${href}${label}`}>
                   <Link
