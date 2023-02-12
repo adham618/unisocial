@@ -19,8 +19,8 @@ export default function Header() {
   return (
     <header className='sticky top-0 z-50 bg-white bg-opacity-90 backdrop-blur-lg'>
       <div ref={HeaderRef} className='relative'>
-        <div className='layout flex items-center justify-between py-4 sm:py-3'>
-          <Link className='relative h-9 w-36 md:h-[42px] md:w-[161px]' href='/'>
+        <div className='layout flex items-center justify-between py-4 sm:py-2.5'>
+          <Link className='relative h-9 w-36 md:h-[36px] md:w-[155px]' href='/'>
             <Image src='/svg/Logo.svg' fill alt='logo' />
           </Link>
           <nav>
@@ -50,7 +50,6 @@ export default function Header() {
             >
               Sign Up
             </Link>
-            {/* toggle menu */}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className='text-xl md:hidden'
