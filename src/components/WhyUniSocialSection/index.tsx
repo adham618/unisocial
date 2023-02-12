@@ -3,7 +3,9 @@ import Link from 'next/link';
 
 import ArrowUpRight from '@/assets/ArrowUpRight.svg';
 import CheckCircle from '@/assets/CheckCircle.svg';
-import ExlipseGroup from '@/assets/ExlipseGroup.svg';
+import ElipseCenter from '@/assets/Ellipse-4.svg';
+import ElipseRight from '@/assets/Ellipse-5.svg';
+import ElipseLeft from '@/assets/Ellipse-7.svg';
 import HighLight from '@/assets/HighLightIcon.svg';
 import Scribble from '@/assets/scribble.svg';
 import XCircle from '@/assets/XCircle.svg';
@@ -64,7 +66,9 @@ export default function index() {
           <span className='m-auto mt-10 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold uppercase text-white sm:absolute sm:inset-0 sm:-bottom-16 sm:z-20 sm:mt-auto sm:h-[72px] sm:w-[72px] sm:text-[32px]'>
             vs
           </span>
-          <ExlipseGroup className='absolute top-[-15%] mx-auto hidden h-full w-full lg:block lg:h-full' />
+          <ElipseLeft className='absolute right-[-15%] top-[-190px] h-[500px] w-[384.53px] lg:left-[-15%] lg:top-0' />
+          <ElipseCenter className='absolute bottom-[120px] left-0 right-0 m-auto h-[500px] w-[100%] lg:bottom-[-100px]' />
+          <ElipseRight className='absolute bottom-[-250px] right-[-15%] h-[500px] w-[384.53px] lg:top-0' />
           <div className='wow animate__animated animate__fadeInUp'>
             <h2 className='h-8 text-xl font-bold tracking-[-0.01em] sm:h-[42px] sm:text-[26px]'>
               Other Websites
