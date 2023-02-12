@@ -60,7 +60,7 @@ export default function index() {
               <Scribble className='absolute -bottom-10 left-[14%] h-[19.48px] w-[340px]' />
             </div>
           </div>
-          <span className='absolute inset-0 z-20 m-auto flex h-[72px] w-[72px] items-center justify-center rounded-full bg-primary text-[32px] font-bold uppercase text-white'>
+          <span className='absolute inset-0 -bottom-16 z-20 m-auto flex h-[72px] w-[72px] items-center justify-center rounded-full bg-primary text-[32px] font-bold uppercase text-white'>
             vs
           </span>
           <div className='wow animate__animated animate__fadeInUp'>
