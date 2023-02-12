@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import ArrowUpRight from '@/assets/ArrowUpRight.svg';
 import CheckCircle from '@/assets/CheckCircle.svg';
+import ExlipseGroup from '@/assets/ExlipseGroup.svg';
 import HighLight from '@/assets/HighLightIcon.svg';
 import Scribble from '@/assets/scribble.svg';
 import XCircle from '@/assets/XCircle.svg';
@@ -63,6 +64,7 @@ export default function index() {
           <span className='m-auto mt-10 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold uppercase text-white sm:absolute sm:inset-0 sm:-bottom-16 sm:z-20 sm:mt-auto sm:h-[72px] sm:w-[72px] sm:text-[32px]'>
             vs
           </span>
+          <ExlipseGroup className='absolute inset-0 mx-auto hidden h-full w-[978.16px] max-w-[80vw] lg:block lg:h-[600px]' />
           <div className='wow animate__animated animate__fadeInUp'>
             <h2 className='h-8 text-xl font-bold tracking-[-0.01em] sm:h-[42px] sm:text-[26px]'>
               Other Websites
