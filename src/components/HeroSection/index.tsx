@@ -14,8 +14,8 @@ export default function index() {
     <section className='relative max-w-full overflow-hidden'>
       <LeftGradientBg className='absolute top-[30px] left-[-266px]  h-[550px] w-[660px] sm:top-[40px] md:-left-[140px]' />
       <div className='layout relative flex flex-col items-center justify-center py-24 text-center'>
-        <h1 className='wow animate__animated animate__fadeInUp relative max-w-[860px] text-5xl font-bold leading-[64px] lg:text-[72px] lg:leading-[78px]'>
-          <HightRigntVector className='absolute -top-4 left-0 text-4xl lg:h-[51.52px] lg:w-[52.72px]' />
+        <h1 className='wow animate__animated animate__fadeInUp relative max-w-[870px] text-5xl font-bold leading-[64px] lg:text-[72px] lg:leading-[78px]'>
+          <HightRigntVector className='absolute -top-5 left-0 text-4xl lg:h-[51.52px] lg:w-[52.72px]' />
           One-stop platform for{' '}
           <span className='italic'>university students</span>
         </h1>
