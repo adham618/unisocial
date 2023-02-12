@@ -55,7 +55,7 @@ export default function Footer() {
   return (
     <footer className='max-w-full overflow-hidden bg-white'>
       <div className='layout'>
-        <div className='flex justify-between gap-4 py-16 pb-32'>
+        <div className='flex flex-col justify-between gap-4 gap-y-10 py-16 pb-32 lg:flex-row'>
           <div className='max-w-[270px]'>
             <Link href='/'>
               <Image src='/svg/Logo.svg' width={161} height={42} alt='logo' />
@@ -64,7 +64,7 @@ export default function Footer() {
               One-stop platform for university students.
             </p>
           </div>
-          <div className='flex gap-20'>
+          <div className='flex flex-wrap gap-10 md:justify-between	 lg:flex-nowrap  lg:justify-start lg:gap-20'>
             <div>
               <h3 className='text-sm font-bold uppercase leading-[22px] tracking-[0.08em]'>
                 Pages
@@ -105,9 +105,9 @@ export default function Footer() {
                   Subscribe to our newsletter
                 </h3>
 
-                <form className='mt-8 flex items-center space-x-5'>
+                <form className='mt-8 flex items-center space-x-3 sm:space-x-5'>
                   <input
-                    className='focus: w-[300px] max-w-[80vw] rounded-[32px] border-none border-transparent bg-[#F4F4F4] px-6 py-4 text-base font-light ring-0 placeholder:text-[#494949] focus:border-none focus:border-transparent focus:outline-none focus:ring-0'
+                    className='focus: w-[300px] max-w-[70vw] rounded-[32px] border-none border-transparent bg-[#F4F4F4] px-6 py-4 text-base font-light ring-0 placeholder:text-[#494949] focus:border-none focus:border-transparent focus:outline-none focus:ring-0'
                     type='email'
                     placeholder='Enter your email'
                   />
