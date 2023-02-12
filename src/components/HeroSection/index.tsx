@@ -90,7 +90,7 @@ export default function index() {
           </div>
         </div>
       </div>
-      <RightGradientBg className='absolute bottom-0 -right-[10vw] -z-10 h-[50vh] w-[1000px] max-w-[40vw] lg:h-[1200px]' />
+      <RightGradientBg className='absolute bottom-0 right-[-50px] -z-10 h-[500px] w-[60vw] sm:-right-[100px] sm:h-[800px] sm:w-[1000px] md:h-[900px] lg:h-[1200px]' />
     </section>
   );
 }
