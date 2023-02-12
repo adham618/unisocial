@@ -93,7 +93,7 @@ export default function index() {
             AI virtual tutors.
           </p>
         </div>
-        <ExlipseGroup className='absolute inset-0 m-auto h-full w-full' />
+        <ExlipseGroup className='absolute inset-0 -z-10 m-auto h-full w-full' />
       </div>
     </section>
   );
