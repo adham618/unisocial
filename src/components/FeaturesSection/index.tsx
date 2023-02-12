@@ -19,7 +19,7 @@ export default function index() {
               Connect with individuals sharing similar interests, all in one
               convenient location.
             </p>
-            <ul className='[&>li]:text-font-medium [&>li] space-y-5 [&>li]:flex [&>li]:items-center'>
+            <ul className='space-y-5 [&>li]:flex [&>li]:items-center [&>li]:text-xl [&>li]:font-medium'>
               <li>
                 <Mark className='mr-4 text-[26px]' /> No hidden fees.
               </li>
