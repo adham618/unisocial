@@ -14,23 +14,23 @@ export default function index() {
     <section className='relative max-w-full overflow-hidden'>
       <LeftGradientBg className='absolute top-[40px] -left-[100px] h-[400px] w-[460px]' />
       <div className='layout relative flex flex-col items-center justify-center py-16 text-center'>
-        <h1 className='wow animate__animated animate__fadeInUp relative max-w-[1030px] text-[88px] font-semibold italic leading-[96px]'>
-          <HightRigntVector className='absolute -top-4 left-0 h-[51.52px] w-[52.72px]' />
+        <h1 className='wow animate__animated animate__fadeInUp relative max-w-[1030px] text-5xl font-semibold italic leading-[64px] lg:text-[88px] lg:leading-[96px]'>
+          <HightRigntVector className='absolute -top-4 left-0 text-4xl lg:h-[51.52px] lg:w-[52.72px]' />
           One-stop platform for university students
         </h1>
-        <p className='wow animate__animated animate__fadeInUp my-7 max-w-[540px] text-xl font-light leading-8'>
+        <p className='wow animate__animated animate__fadeInUp my-7 max-w-[540px] text-lg font-light leading-8 sm:text-xl'>
           Experience university life to the fullest and ease with our dedicated
           social platform
         </p>
         <div className='wow animate__animated animate__fadeInUp flex flex-col items-center justify-center'>
           <Link
             href='/'
-            className='group mt-5 flex cursor-pointer items-center rounded-full bg-primary py-5 px-14 text-lg font-bold uppercase tracking-[0.08em] text-white transition-colors hover:bg-black'
+            className='group mt-1 flex cursor-pointer items-center rounded-full bg-primary py-4 px-6 text-base font-bold uppercase tracking-[0.08em] text-white transition-colors hover:bg-black sm:mt-5 sm:py-5 sm:px-14 sm:text-lg'
           >
             create account
-            <ArrowUpRight className='ml-2 text-2xl transition-transform group-hover:rotate-45' />
+            <ArrowUpRight className='ml-2 text-xl transition-transform group-hover:rotate-45 sm:text-2xl' />
           </Link>
-          <div className='mt-7 flex'>
+          <div className='mt-7 flex flex-col gap-y-4 sm:flex-row'>
             <div>
               <div className='flex items-center justify-center space-x-4'>
                 <Image
@@ -50,7 +50,7 @@ export default function index() {
                 Concordia & Mcgill
               </span>
             </div>
-            <div className='mr-6 ml-5 h-6 w-[1px] bg-[#c4c4c4]' />
+            <div className='mx-auto h-6 w-[1px] rotate-90 bg-[#c4c4c4] sm:mr-6 sm:ml-5 sm:rotate-0' />
             <div>
               <div className='flex items-center justify-center space-x-4'>
                 <Image
@@ -79,18 +79,18 @@ export default function index() {
           </div>
         </div>
 
-        <div className='mt-10 flex w-full items-center'>
+        <div className='relative mt-10 flex w-full items-center'>
           <div>
-            <Star className='mb-[100px] h-[75.4px] w-[87.11px]' />
-            <Line className='h-[253.45px] w-[143.89px]' />
+            <Star className='absolute -top-6 text-6xl md:static md:h-[75.4px] md:w-[87.11px]' />
+            <Line className='absolute -left-4 bottom-0 h-[130px] w-[90px] md:h-[253.45px] md:w-[143.89px]' />
           </div>
-          <div className='wow animate__animated animate__bounceIn relative z-20 ml-auto h-[880px] w-full flex-grow'>
-            <TOPGradientBg className='absolute top-0 left-[-108px] z-10 h-[229.5px] w-[280.83px]' />
+          <div className='wow animate__animated animate__bounceIn relative z-20 ml-auto h-[300px] w-full flex-grow xs:h-[340px] sm:h-[500px] md:h-[700px] lg:h-[880px]'>
+            <TOPGradientBg className='absolute top-0 left-[38%] z-10 h-[10vh] w-[280.83px] max-w-[10vw] lg:h-[229.5px]' />
             <Image src='/images/hero-image.png' fill alt='hero-image' />
           </div>
         </div>
       </div>
-      <RightGradientBg className='absolute bottom-0 -right-[10vw] -z-10 h-[1200px] w-[1000px]' />
+      <RightGradientBg className='absolute bottom-0 -right-[10vw] -z-10 h-[50vh] w-[1000px] max-w-[40vw] lg:h-[1200px]' />
     </section>
   );
 }
