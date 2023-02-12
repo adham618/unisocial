@@ -25,7 +25,7 @@ export default function index() {
         <div className='wow animate__animated animate__fadeInUp flex flex-col items-center justify-center'>
           <Link
             href='/'
-            className='group flex cursor-pointer items-center rounded-full bg-primary py-5 px-14 text-lg font-bold uppercase tracking-[0.08em] text-white transition-colors hover:bg-black'
+            className='group mt-5 flex cursor-pointer items-center rounded-full bg-primary py-5 px-14 text-lg font-bold uppercase tracking-[0.08em] text-white transition-colors hover:bg-black'
           >
             create account
             <ArrowUpRight className='ml-2 text-2xl transition-transform group-hover:rotate-45' />
