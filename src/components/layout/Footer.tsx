@@ -55,7 +55,7 @@ export default function Footer() {
   return (
     <footer className='max-w-full overflow-hidden bg-white'>
       <div className='layout'>
-        <div className='flex flex-col justify-between gap-4 gap-y-10 py-16 pb-32 lg:flex-row'>
+        <div className='flex flex-col justify-between gap-4 gap-y-10 py-16 pb-20 sm:pb-32 lg:flex-row'>
           <div className='max-w-[270px]'>
             <Link href='/'>
               <Image src='/svg/Logo.svg' width={161} height={42} alt='logo' />
