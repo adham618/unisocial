@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import ArrowUpRight from '@/assets/ArrowUpRight.svg';
 import CheckCircle from '@/assets/CheckCircle.svg';
-import HighLight from '@/assets/HighLight.svg';
+import HighLight from '@/assets/HighLightIcon.svg';
 import Scribble from '@/assets/scribble.svg';
 import XCircle from '@/assets/XCircle.svg';
 
