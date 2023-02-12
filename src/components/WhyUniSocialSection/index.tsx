@@ -18,7 +18,7 @@ export default function index() {
           Most “education” platforms work against you, than for you. Shift to
           the software that’s made by students for students.
         </p>
-        <div className='relative mx-auto mt-16 grid max-w-[82vw] auto-rows-auto gap-8 gap-y-32 sm:max-w-[1038px] sm:gap-y-40 lg:grid-cols-2'>
+        <div className='relative mx-auto mt-16 grid max-w-[82vw] auto-rows-auto gap-8 gap-y-10 sm:max-w-[1038px] sm:gap-y-40 lg:grid-cols-2'>
           <div className='wow animate__animated animate__fadeInUp flex flex-col'>
             <h2 className='relative mx-auto h-8 w-28 text-[30px] font-bold sm:h-[42px] sm:w-[179px]'>
               <Image src='/svg/Logo.svg' fill alt='logo' />
@@ -60,7 +60,7 @@ export default function index() {
               <Scribble className='absolute -bottom-10 h-[19.48px] w-[340px] max-w-full sm:left-[14%]' />
             </div>
           </div>
-          <span className='absolute inset-0 bottom-6 z-20 m-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold uppercase text-white sm:-bottom-16 sm:h-[72px] sm:w-[72px] sm:text-[32px]'>
+          <span className='m-auto mt-10 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold uppercase text-white sm:absolute sm:inset-0 sm:-bottom-16 sm:z-20 sm:mt-auto sm:h-[72px] sm:w-[72px] sm:text-[32px]'>
             vs
           </span>
           <div className='wow animate__animated animate__fadeInUp'>
