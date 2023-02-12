@@ -2,14 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import ArrowUpRight from '@/assets/ArrowUpRight.svg';
-import EllipseTop from '@/assets/EllipseTop.svg';
 import HightRigntVector from '@/assets/HighRight.svg';
 
 export default function index() {
   return (
     <section className='max-w-full overflow-hidden'>
-      <div className='layout grid grid-cols-12 gap-8 pb-10 pt-16 text-center'>
-        <div className='wow animate__animated animate__fadeInUp col-span-8 rounded-[22px] bg-primary px-12 py-10'>
+      <div className='layout flex flex-wrap gap-8 py-16 text-center lg:grid lg:grid-cols-12'>
+        <div className='wow animate__animated animate__fadeInUp col-span-8 mx-auto w-fit rounded-[22px] bg-primary px-12 py-10'>
           <h2 className='relative top-0 left-0 text-left text-[56px] font-bold italic leading-[64px] tracking-tight text-white'>
             <HightRigntVector className='absolute -top-3 -left-4 fill-white text-[23px]' />
             Student social platform that handles it all.
@@ -23,7 +22,7 @@ export default function index() {
           </Link>
         </div>
         <div
-          className='wow animate__animated animate__fadeInUp relative z-10 col-span-4 rounded-[22px]  bg-white px-8 py-10 text-left'
+          className='wow animate__animated animate__fadeInUp relative z-10 col-span-4 mx-auto w-fit max-w-[400px] rounded-[22px]  bg-white px-8 py-10 text-left'
           style={{ boxShadow: '0px 13px 100px rgba(199, 199, 199, 0.25)' }}
         >
           <Image
@@ -32,19 +31,16 @@ export default function index() {
             height={80}
             alt='card-image'
           />
-          <h2 className='mb-4 mt-8 text-[30px] font-bold leading-[40px] tracking-[-0.01em]'>
+          <h2 className='mt-6 mb-2 text-2xl font-bold leading-[40px] tracking-[-0.01em] sm:mt-8 sm:mb-4 sm:text-[30px]'>
             Meet Similar People
           </h2>
           <p className='text-lg leading-8'>
             Discover like-minded students and expand your university network
             within your interests
           </p>
-          <EllipseTop className='absolute  top-[148px] left-[-186px] -z-10 h-[299.61px] w-[435.88px]' />
         </div>
-      </div>
-      <div className='layout grid grid-cols-3 gap-8 pb-16'>
         <div
-          className='wow animate__animated animate__fadeInUp rounded-[22px] bg-white px-8 py-10 text-left'
+          className='wow animate__animated animate__fadeInUp relative z-10 col-span-4 mx-auto w-fit max-w-[400px] rounded-[22px]  bg-white px-8 py-10 text-left'
           style={{ boxShadow: '0px 13px 100px rgba(199, 199, 199, 0.25)' }}
         >
           <Image
@@ -53,7 +49,7 @@ export default function index() {
             height={80}
             alt='card-image'
           />
-          <h2 className='mb-4 mt-8 text-[30px] font-bold leading-[40px] tracking-[-0.01em]'>
+          <h2 className='mt-6 mb-2 text-2xl font-bold leading-[40px] tracking-[-0.01em] sm:mt-8 sm:mb-4 sm:text-[30px]'>
             Manage Events
           </h2>
           <p className='text-lg leading-8'>
@@ -61,7 +57,7 @@ export default function index() {
           </p>
         </div>
         <div
-          className='wow animate__animated animate__fadeInUp rounded-[22px] bg-white px-8 py-10 text-left'
+          className='wow animate__animated animate__fadeInUp relative z-10 col-span-4 mx-auto w-fit max-w-[400px] rounded-[22px]  bg-white px-8 py-10 text-left'
           style={{ boxShadow: '0px 13px 100px rgba(199, 199, 199, 0.25)' }}
         >
           <Image
@@ -70,7 +66,7 @@ export default function index() {
             height={80}
             alt='card-image'
           />
-          <h2 className='mb-4 mt-8 text-[30px] font-bold leading-[40px] tracking-[-0.01em]'>
+          <h2 className='mt-6 mb-2 text-2xl font-bold leading-[40px] tracking-[-0.01em] sm:mt-8 sm:mb-4 sm:text-[30px]'>
             Local Opportunities
           </h2>
           <p className='text-lg leading-8'>
@@ -79,7 +75,7 @@ export default function index() {
           </p>
         </div>
         <div
-          className='wow animate__animated animate__fadeInUp rounded-[22px] bg-white px-8 py-10 text-left'
+          className='wow animate__animated animate__fadeInUp relative z-10 col-span-4 mx-auto w-fit max-w-[400px] rounded-[22px]  bg-white px-8 py-10 text-left'
           style={{ boxShadow: '0px 13px 100px rgba(199, 199, 199, 0.25)' }}
         >
           <Image
@@ -88,7 +84,7 @@ export default function index() {
             height={80}
             alt='card-image'
           />
-          <h2 className='mb-4 mt-8 text-[30px] font-bold leading-[40px] tracking-[-0.01em]'>
+          <h2 className='mt-6 mb-2 text-2xl font-bold leading-[40px] tracking-[-0.01em] sm:mt-8 sm:mb-4 sm:text-[30px]'>
             AI Personal Tutor
           </h2>
           <p className='text-lg leading-8'>
