@@ -8,14 +8,14 @@ export default function index() {
   return (
     <section className='max-w-full overflow-hidden'>
       <div className='layout flex flex-wrap gap-8 py-16 text-center lg:grid lg:grid-cols-12'>
-        <div className='wow animate__animated animate__fadeInUp col-span-8 mx-auto w-fit rounded-[22px] bg-primary px-12 py-10'>
-          <h2 className='relative top-0 left-0 text-left text-[56px] font-bold italic leading-[64px] tracking-tight text-white'>
+        <div className='wow animate__animated animate__fadeInUp col-span-8 mx-auto w-fit rounded-[22px] bg-primary px-8 py-9 sm:py-10 sm:px-12'>
+          <h2 className='relative top-0 left-0 text-left text-4xl font-bold italic tracking-tight text-white sm:text-[56px] sm:leading-[64px]'>
             <HightRigntVector className='absolute -top-3 -left-4 fill-white text-[23px]' />
             Student social platform that handles it all.
           </h2>
           <Link
             href='/features'
-            className='group mt-12 flex w-fit cursor-pointer items-center rounded-full bg-white py-5 px-12 text-base font-bold uppercase tracking-[0.08em] transition-colors hover:bg-black hover:text-white'
+            className='group mt-8 flex w-fit cursor-pointer items-center rounded-full bg-white py-4 px-6 text-base font-bold uppercase tracking-[0.08em] transition-colors hover:bg-black hover:text-white sm:mt-12 sm:py-5 sm:px-12'
           >
             See all Features
             <ArrowUpRight className='ml-2 stroke-black text-2xl transition-transform group-hover:rotate-45 group-hover:stroke-white' />
