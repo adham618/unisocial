@@ -12,7 +12,7 @@ import Star from '@/assets/Star.svg';
 export default function index() {
   return (
     <section className='relative max-w-full overflow-hidden'>
-      <LeftGradientBg className='absolute top-[70px] left-[-266px]  h-[400px] w-[460px] sm:top-[40px] md:-left-[200px]' />
+      <LeftGradientBg className='absolute top-[30px] left-[-266px]  h-[550px] w-[660px] sm:top-[40px] md:-left-[140px]' />
       <div className='layout relative flex flex-col items-center justify-center py-16 text-center'>
         <h1 className='wow animate__animated animate__fadeInUp relative max-w-[1030px] text-5xl font-semibold italic leading-[64px] lg:text-[88px] lg:leading-[96px]'>
           <HightRigntVector className='absolute -top-4 left-0 text-4xl lg:h-[51.52px] lg:w-[52.72px]' />
