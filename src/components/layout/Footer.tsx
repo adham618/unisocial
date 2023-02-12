@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { GrFacebookOption, GrLinkedinOption, GrTwitter } from 'react-icons/gr';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { RiInstagramFill } from 'react-icons/ri';
-
-import ArrowRight from '@/assets/ArrowRight.svg';
 
 const pagesLinks = [
   {
@@ -113,10 +112,10 @@ export default function Footer() {
                     placeholder='Enter your email'
                   />
                   <button
-                    className='flex h-14 w-14 items-center justify-center rounded-full bg-black text-2xl font-light text-white transition-colors hover:bg-primary'
+                    className='flex h-14 w-14 items-center justify-center rounded-full bg-black text-[33px] font-light text-white transition-colors hover:bg-primary'
                     type='submit'
                   >
-                    <ArrowRight />
+                    <MdOutlineKeyboardArrowRight />
                   </button>
                 </form>
               </div>
