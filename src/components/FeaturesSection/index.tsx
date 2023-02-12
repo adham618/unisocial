@@ -9,7 +9,7 @@ export default function index() {
     <section className='max-w-full overflow-hidden'>
       <div className='layout space-y-24 py-16 lg:pb-36'>
         <div className='flex flex-col items-center justify-between gap-6 lg:flex-row'>
-          <div className='wow animate__animated animate__fadeInUp relative h-[350px] w-[560px] max-w-full xs:h-[400px] sm:h-[500px] lg:h-[580px]'>
+          <div className='wow animate__animated animate__zoomIn relative h-[350px] w-[560px] max-w-full xs:h-[400px] sm:h-[500px] lg:h-[580px]'>
             <Image src='/images/feature-image.png' fill alt='feature-image' />
             <BgGradient className='opacitsy-70 absolute left-[-300px] bottom-[-30%] -z-10 h-full w-[800px]' />
           </div>
@@ -37,7 +37,7 @@ export default function index() {
           </div>
         </div>
         <div className='flex flex-col items-center justify-between gap-6 lg:flex-row-reverse'>
-          <div className='wow animate__animated animate__fadeInUp relative h-[350px] w-[560px] max-w-full xs:h-[400px] sm:h-[500px] lg:h-[580px]'>
+          <div className='wow animate__animated animate__zoomIn relative h-[350px] w-[560px] max-w-full xs:h-[400px] sm:h-[500px] lg:h-[580px]'>
             <Image src='/images/feature-image.png' fill alt='feature-image' />
             <BgGradient className='opacitsy-70 absolute left-[-300px] bottom-[-30%] -z-10 h-full w-[800px]' />
           </div>
@@ -66,7 +66,7 @@ export default function index() {
           </div>
         </div>
         <div className='flex flex-col items-center justify-between gap-6 lg:flex-row'>
-          <div className='wow animate__animated animate__fadeInUp relative h-[350px] w-[560px] max-w-full xs:h-[400px] sm:h-[500px] lg:h-[580px]'>
+          <div className='wow animate__animated animate__zoomIn relative h-[350px] w-[560px] max-w-full xs:h-[400px] sm:h-[500px] lg:h-[580px]'>
             <Image src='/images/feature-image.png' fill alt='feature-image' />
             <BgGradient className='opacitsy-70 absolute left-[-300px] bottom-[-25%] -z-10 h-full w-[800px]' />
           </div>
