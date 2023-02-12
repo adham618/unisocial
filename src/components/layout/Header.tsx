@@ -69,7 +69,7 @@ export default function Header() {
             }}
             className='overflow-hidden transition-all duration-500 ease-in-out'
           >
-            <ul className='space-y-4 bg-white pt-5 pb-10 md:hidden'>
+            <ul className='space-y-4 bg-white bg-opacity-90 pt-5 pb-10 backdrop-blur-lg md:hidden'>
               {links.map(({ href, label }) => (
                 <li key={`${href}${label}`}>
                   <Link
