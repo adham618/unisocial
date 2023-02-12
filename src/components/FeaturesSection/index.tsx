@@ -5,7 +5,7 @@ import Mark from '@/assets/Mark.svg';
 
 export default function index() {
   return (
-    <section id='features' className='max-w-full overflow-hidden'>
+    <section className='max-w-full overflow-hidden'>
       <div className='layout space-y-24 py-16'>
         <div className='flex items-center justify-between gap-6'>
           <div className='wow animate__animated animate__fadeInUp relative h-[580px] w-[560px] max-w-full'>
