@@ -14,11 +14,11 @@ export default function index() {
     <section className='relative max-w-full overflow-hidden'>
       <LeftGradientBg className='absolute top-[30px] left-[-266px]  h-[550px] w-[660px] sm:top-[40px] md:-left-[140px]' />
       <div className='layout relative flex flex-col items-center justify-center py-24 text-center'>
-        <h1 className='wow animate__animated animate__fadeInUp relative max-w-[860px] text-5xl font-semibold italic leading-[64px] lg:text-[72px] lg:leading-[78px]'>
+        <h1 className='wow animate__animated animate__fadeInUp relative max-w-[860px] text-5xl font-bold italic leading-[64px] lg:text-[72px] lg:leading-[78px]'>
           <HightRigntVector className='absolute -top-4 left-0 text-4xl lg:h-[51.52px] lg:w-[52.72px]' />
           One-stop platform for university students
         </h1>
-        <p className='wow animate__animated animate__fadeInUp my-7 max-w-[540px] text-lg font-light italic leading-8 sm:text-lg'>
+        <p className='wow animate__animated animate__fadeInUp my-7 max-w-[540px] text-lg font-light leading-8 sm:text-lg'>
           Experience university life to the fullest and ease with our dedicated
           social platform
         </p>
