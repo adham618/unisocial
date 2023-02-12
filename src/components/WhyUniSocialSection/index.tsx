@@ -20,7 +20,7 @@ export default function index() {
         </p>
         <div className='relative mx-auto mt-16 grid max-w-[82vw] auto-rows-auto gap-8 gap-y-10 sm:max-w-[1038px] sm:gap-y-40 lg:grid-cols-2'>
           <div className='wow animate__animated animate__fadeInUp flex flex-col'>
-            <h2 className='relative mx-auto h-8 w-28 text-[30px] font-bold sm:h-[42px] sm:w-[179px]'>
+            <h2 className='relative mx-auto  h-9 w-36 text-[30px] font-bold sm:h-[42px] sm:w-[179px]'>
               <Image src='/svg/Logo.svg' fill alt='logo' />
             </h2>
             <div

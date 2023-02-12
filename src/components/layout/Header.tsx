@@ -20,7 +20,7 @@ export default function Header() {
     <header className='sticky top-0 z-50 bg-white bg-opacity-90 backdrop-blur-lg'>
       <div ref={HeaderRef} className='relative'>
         <div className='layout flex items-center justify-between py-3'>
-          <Link className='relative h-8 w-28 md:h-[42px] md:w-[161px]' href='/'>
+          <Link className='relative h-9 w-36 md:h-[42px] md:w-[161px]' href='/'>
             <Image src='/svg/Logo.svg' fill alt='logo' />
           </Link>
           <nav>
