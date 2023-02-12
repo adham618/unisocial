@@ -2,12 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import ArrowUpRight from '@/assets/ArrowUpRight.svg';
+import ExlipseGroup from '@/assets/ExlipseGroup.svg';
 import HightRigntVector from '@/assets/HighRight.svg';
 
 export default function index() {
   return (
     <section className='max-w-full overflow-hidden'>
-      <div className='layout flex flex-wrap gap-8 py-16 text-center lg:grid lg:grid-cols-12'>
+      <div className='layout relative flex flex-wrap gap-8 py-16 text-center lg:grid lg:grid-cols-12'>
         <div className='wow animate__animated animate__fadeInUp col-span-8 mx-auto w-fit rounded-[22px] bg-primary px-8 py-9 sm:py-10 sm:px-12'>
           <h2 className='relative top-0 left-0 text-left text-4xl font-bold italic tracking-tight text-white sm:text-[56px] sm:leading-[64px]'>
             <HightRigntVector className='absolute -top-3 -left-4 fill-white text-[23px]' />
@@ -92,6 +93,7 @@ export default function index() {
             AI virtual tutors.
           </p>
         </div>
+        <ExlipseGroup className='absolute inset-0 m-auto h-full w-full' />
       </div>
     </section>
   );
