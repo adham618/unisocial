@@ -59,7 +59,7 @@ export default function Footer() {
         <div className='flex justify-between gap-4 py-16 pb-32'>
           <div className='max-w-[270px]'>
             <Link href='/'>
-              <Image src='/svg/logo.svg' width={161} height={42} alt='logo' />
+              <Image src='/svg/Logo.svg' width={161} height={42} alt='logo' />
             </Link>
             <p className='mt-4 text-lg font-light leading-8'>
               One-stop platform for university students.
