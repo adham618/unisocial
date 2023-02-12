@@ -85,7 +85,7 @@ export default function index() {
             <Line className='absolute -left-4 bottom-0 h-[130px] w-[90px] md:h-[253.45px] md:w-[143.89px]' />
           </div>
           <div className='wow animate__animated animate__bounceIn relative z-20 ml-auto h-[300px] w-full flex-grow xs:h-[340px] sm:h-[500px] md:h-[700px] lg:h-[880px]'>
-            <TOPGradientBg className='absolute top-[0px] left-[-50px] z-10 h-[360px] w-[350px]' />
+            <TOPGradientBg className='absolute top-[0px] left-[-50px] z-10 hidden h-[360px] w-[350px] sm:block' />
             <Image src='/images/hero-image.png' fill alt='hero-image' />
           </div>
         </div>
