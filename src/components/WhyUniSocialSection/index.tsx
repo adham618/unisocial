@@ -18,7 +18,7 @@ export default function index() {
           Most “education” platforms work against you, than for you. Shift to
           the software that’s made by students for students.
         </p>
-        <div className='mx-auto mt-16 grid max-w-[1004px] auto-rows-auto grid-cols-2 gap-8'>
+        <div className='relative mx-auto mt-16 grid max-w-[1004px] auto-rows-auto grid-cols-2 gap-8'>
           <div className='wow animate__animated animate__fadeInUp flex flex-col'>
             <h2 className='mx-auto h-[42px] w-fit text-[30px] font-bold'>
               <Image src='/svg/logo.svg' width={179} height={42} alt='logo' />
@@ -58,11 +58,11 @@ export default function index() {
                 </li>
               </ul>
               <Scribble className='absolute -bottom-10 left-[14%] h-[19.48px] w-[340px]' />
-              <span className='absolute top-0 bottom-0 right-[-52px] z-20 my-auto flex h-[72px] w-[72px] items-center justify-center rounded-full bg-primary text-[32px] font-bold uppercase text-white'>
-                vs
-              </span>
             </div>
           </div>
+          <span className='absolute inset-0 z-20 m-auto flex h-[72px] w-[72px] items-center justify-center rounded-full bg-primary text-[32px] font-bold uppercase text-white'>
+            vs
+          </span>
           <div className='wow animate__animated animate__fadeInUp'>
             <h2 className='h-[42px] text-[26px] font-bold tracking-[-0.01em]'>
               Other Websites
