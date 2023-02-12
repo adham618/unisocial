@@ -53,7 +53,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className='bg-white'>
+    <footer className='max-w-full overflow-hidden bg-white'>
       <div className='layout'>
         <div className='flex justify-between gap-4 py-16 pb-32'>
           <div className='max-w-[270px]'>
