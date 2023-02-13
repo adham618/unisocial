@@ -54,14 +54,16 @@ export default function index() {
             </div>
             <div className='mx-auto h-6 w-[1px] rotate-90 bg-[#c4c4c4] sm:mr-6 sm:ml-5 sm:rotate-0' />
             <div>
-              <div className='flex items-center justify-center space-x-4'>
+              <div className='flex justify-center'>
                 <Image
+                  className='mr-4'
                   src='/images/QueensU.png'
                   width={22}
                   height={28}
                   alt='university'
                 />
                 <Image
+                  className='mr-2.5'
                   src='/images/uottawa.png'
                   width={23}
                   height={27}
