@@ -54,7 +54,7 @@ export default function index() {
             </div>
             <div className='mx-auto h-6 w-[1px] rotate-90 bg-[#c4c4c4] sm:mr-6 sm:ml-5 sm:rotate-0' />
             <div>
-              <div className='flex justify-center'>
+              <div className='flex items-center justify-center'>
                 <Image
                   className='mr-4'
                   src='/images/QueensU.png'
@@ -63,7 +63,7 @@ export default function index() {
                   alt='university'
                 />
                 <Image
-                  className='mr-2.5'
+                  className='mr-2'
                   src='/images/uottawa.png'
                   width={23}
                   height={27}
