@@ -20,7 +20,11 @@ export default function Header() {
     <header className='sticky top-0 z-50 bg-white bg-opacity-90 backdrop-blur-lg'>
       <div ref={HeaderRef} className='relative'>
         <div className='layout flex items-center justify-between py-4 sm:py-2.5'>
-          <Link className='relative h-9 w-36 md:h-[36px] md:w-[155px]' href='/'>
+          <Link
+            href='/'
+            className='relative h-9 w-36 md:h-[36px] md:w-[155px]'
+            aria-label='logo'
+          >
             <Image src='/svg/Logo.svg' fill alt='logo' />
           </Link>
           <nav>
@@ -28,8 +32,9 @@ export default function Header() {
               {links.map(({ href, label }) => (
                 <li key={`${href}${label}`}>
                   <Link
-                    className='cursor-pointer font-normal transition-colors hover:opacity-60'
                     href={href}
+                    className='cursor-pointer font-normal transition-colors hover:opacity-60'
+                    aria-label={label}
                   >
                     {label}
                   </Link>
@@ -41,18 +46,21 @@ export default function Header() {
             <Link
               href='/login'
               className='hidden text-base font-normal hover:opacity-60 sm:block'
+              aria-label='login'
             >
               Log In
             </Link>
             <Link
               href='/signup'
               className='hidden rounded-full bg-primary px-6 py-3 text-base font-normal text-white transition-colors hover:bg-opacity-90 sm:block'
+              aria-label='signup'
             >
               Sign Up
             </Link>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className='text-xl md:hidden'
+              aria-label='Menu'
             >
               {isOpen ? <FiX /> : <FiMenu />}
             </button>
@@ -74,6 +82,7 @@ export default function Header() {
                   <Link
                     className='cursor-pointer font-normal transition-colors hover:opacity-60'
                     href={href}
+                    aria-label={label}
                   >
                     {label}
                   </Link>

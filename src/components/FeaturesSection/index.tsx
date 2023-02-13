@@ -57,6 +57,7 @@ export default function index() {
             <a
               className='flex items-center text-sm font-semibold uppercase hover:underline sm:text-base sm:font-bold'
               href='#'
+              aria-label='Learn More'
             >
               <span className='mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-black text-base sm:text-2xl'>
                 <ArrowUpRight />

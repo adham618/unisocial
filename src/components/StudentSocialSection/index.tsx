@@ -17,6 +17,7 @@ export default function index() {
           <Link
             href='/features'
             className='group mt-8 flex w-fit cursor-pointer items-center rounded-full bg-white py-4 px-6 text-base font-bold uppercase tracking-[0.08em] transition-colors hover:bg-black hover:text-white sm:mt-12 sm:py-5 sm:px-12'
+            aria-label='See all Features'
           >
             See all Features
             <ArrowUpRight className='ml-2 stroke-black text-2xl transition-transform group-hover:rotate-45 group-hover:stroke-white' />

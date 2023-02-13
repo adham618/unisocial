@@ -57,7 +57,7 @@ export default function Footer() {
       <div className='layout'>
         <div className='flex flex-col justify-between gap-4 gap-y-10 py-16 pb-20 sm:pb-32 lg:flex-row'>
           <div className='max-w-[270px]'>
-            <Link href='/'>
+            <Link href='/' aria-label='logo'>
               <Image src='/svg/Logo.svg' width={161} height={42} alt='logo' />
             </Link>
             <p className='mt-4 text-lg font-light leading-8'>
@@ -75,6 +75,7 @@ export default function Footer() {
                     <a
                       href={link}
                       className='text-base font-light transition-colors hover:opacity-60'
+                      aria-label={label}
                     >
                       {label}
                     </a>
@@ -92,6 +93,7 @@ export default function Footer() {
                     <a
                       href={link}
                       className='text-base font-light transition-colors hover:opacity-60'
+                      aria-label={label}
                     >
                       {label}
                     </a>
@@ -114,6 +116,7 @@ export default function Footer() {
                   <button
                     className='flex h-14 w-14 items-center justify-center rounded-full bg-black text-[33px] font-light text-white transition-colors hover:bg-primary'
                     type='submit'
+                    aria-label='Subscribe'
                   >
                     <MdOutlineKeyboardArrowRight />
                   </button>
@@ -129,6 +132,7 @@ export default function Footer() {
                       <a
                         href={link}
                         className='flex h-10 w-10 items-center justify-center rounded-full bg-[#F4F4F4] text-xl transition-all hover:translate-x-0 hover:translate-y-[-5px] hover:transform hover:bg-primary hover:text-white'
+                        aria-label='Social Media'
                       >
                         {icon}
                       </a>

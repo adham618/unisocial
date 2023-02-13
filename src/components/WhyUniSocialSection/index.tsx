@@ -113,6 +113,7 @@ export default function index() {
         <Link
           href='/'
           className='wow animate__animated animate__fadeInUp group mt-20 flex cursor-pointer items-center rounded-full bg-primary py-4 px-6 text-sm font-bold uppercase tracking-[0.08em] text-white transition-colors hover:bg-black sm:mt-32 sm:py-5 sm:px-12 sm:text-lg'
+          aria-label='create account'
         >
           create account
           <ArrowUpRight className='ml-2 text-xl transition-transform group-hover:rotate-45 sm:text-2xl' />
