@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import FeaturesSection from '@/components/FeaturesSection';
 import HeroSection from '@/components/HeroSection';
-import Layout from '@/components/layout/Layout';
+import Layout from '@/components/Layout';
 import Seo from '@/components/Seo';
 import StudentSocialSection from '@/components/StudentSocialSection';
 import WhyUniSocialSection from '@/components/WhyUniSocialSection';
