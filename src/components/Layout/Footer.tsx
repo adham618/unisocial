@@ -64,7 +64,7 @@ export default function Footer() {
               One-stop platform for university students.
             </p>
           </div>
-          <div className='flex flex-wrap gap-10 md:justify-between	 lg:flex-nowrap  lg:justify-start lg:gap-20'>
+          <div className='flex flex-wrap gap-10 md:justify-between lg:flex-nowrap lg:justify-start lg:gap-20'>
             <div>
               <h3 className='text-sm font-bold uppercase leading-[22px] tracking-[0.08em]'>
                 Pages
