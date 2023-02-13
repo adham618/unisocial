@@ -17,7 +17,11 @@ export default function Header() {
   const HeaderRef = React.useRef<HTMLDivElement>(null);
   useOnClickOutside(HeaderRef, () => setIsOpen(false));
   return (
-    <header className='sticky top-0 z-50 bg-white bg-opacity-90 backdrop-blur-lg'>
+    <header
+      className={`${
+        isOpen ? 'shadow-lg' : ''
+      } sticky top-0 z-50 bg-white bg-opacity-90  backdrop-blur-lg`}
+    >
       <div ref={HeaderRef} className='relative'>
         <div className='layout flex items-center justify-between py-4 sm:py-2.5'>
           <Link
