@@ -36,27 +36,27 @@ export default function index() {
               </h3>
               <ul className='space-y-4 sm:space-y-5 [&>li]:flex [&>li]:text-left [&>li]:text-sm  [&>li]:font-medium sm:[&>li]:text-xl'>
                 <li>
-                  <CheckCircle className='mr-3 text-xl text-[32px]' /> No hidden
-                  fees. No surprises
+                  <CheckCircle className='mr-3 min-w-fit text-xl text-[32px]' />{' '}
+                  No hidden fees. No surprises
                 </li>
                 <li>
-                  <CheckCircle className='mr-3 text-xl text-[32px]' />
+                  <CheckCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Manage uni-life, with no stress
                 </li>
                 <li>
-                  <CheckCircle className='mr-3 text-xl text-[32px]' />
+                  <CheckCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Supports most popular classes
                 </li>
                 <li>
-                  <CheckCircle className='mr-3 text-xl text-[32px]' />
+                  <CheckCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Provides 24/7 email support
                 </li>
                 <li>
-                  <CheckCircle className='mr-3 text-xl text-[32px]' />
+                  <CheckCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Integrates seamlessly with Stripe
                 </li>
                 <li>
-                  <CheckCircle className='mr-3 text-xl text-[32px]' />
+                  <CheckCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Works with real local data
                 </li>
               </ul>
@@ -82,27 +82,27 @@ export default function index() {
               </h3>
               <ul className='space-y-4 sm:space-y-5 [&>li]:flex [&>li]:text-left [&>li]:text-sm  [&>li]:font-medium sm:[&>li]:text-xl'>
                 <li>
-                  <XCircle className='mr-3 text-xl text-[32px]' /> Complicated
-                  fee structure
+                  <XCircle className='mr-3 min-w-fit text-xl text-[32px]' />{' '}
+                  Complicated fee structure
                 </li>
                 <li>
-                  <XCircle className='mr-3 text-xl text-[32px]' />
+                  <XCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Need a lot of manual data adjustments
                 </li>
                 <li>
-                  <XCircle className='mr-3 text-xl text-[32px]' />
+                  <XCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Consistently wrong answers to questions
                 </li>
                 <li>
-                  <XCircle className='mr-3 text-xl text-[32px]' />
+                  <XCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Have poor support and wait times
                 </li>
                 <li>
-                  <XCircle className='mr-3 text-xl text-[32px]' />
+                  <XCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Have spotty integrations
                 </li>
                 <li>
-                  <XCircle className='mr-3 text-xl text-[32px]' />
+                  <XCircle className='mr-3 min-w-fit text-xl text-[32px]' />
                   Use unfair & unethical techniques
                 </li>
               </ul>
