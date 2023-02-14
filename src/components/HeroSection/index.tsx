@@ -76,7 +76,7 @@ export default function index() {
                   alt='university'
                 />
               </div>
-              <span className='text-center text-[10px] font-medium text-[#7F7F7D]'>
+              <span className='-ml-2 text-center text-[10px] font-medium text-[#7F7F7D]'>
                 Coming soon
               </span>
             </div>
